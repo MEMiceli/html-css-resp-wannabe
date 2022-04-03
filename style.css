@@ -71,3 +71,33 @@ img {
 .clear {
   clear: both;
 }
+
+/* esercizio */
+@media screen  and (max-width: 420px){
+      h1{
+        font-size: 16px;
+        align-self: flex-start;
+      }
+      /* body{
+      display: flex;
+      flex-wrap: wrap;
+
+      } */
+      .row{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+    }
+      .left .central .right{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+      } 
+      .first .second .third{
+        width: 100vw;
+        font-size: 10px;
+      }
+}
